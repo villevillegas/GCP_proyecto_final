@@ -1,0 +1,24 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: microservices-ingress
+  annotations:
+    kubernetes.io/ingress.class: "gce"  # Para GKE clásico
+spec:
+  rules:
+  - http:
+      paths:
+      - path: /register
+        pathType: Prefix
+        backend:
+          service:
+            name: sell-registration-service
+            port:
+              number: 80
+      - path: /updateBalance
+        pathType: Prefix
+        backend:
+          service:
+            name: service-b
+            port:
+              number: 80

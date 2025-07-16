@@ -1,0 +1,28 @@
+2025-07-15 03:26:01.384 [info] 
+
+
+
+
+2025-07-15 03:26:01.421 [info] Extension host agent started.
+2025-07-15 03:26:04.708 [info] [127.0.0.1][a13ecd6b][ManagementConnection] New connection established.
+2025-07-15 03:26:04.780 [info] [127.0.0.1][47bc0e1f][ExtensionHostConnection] New connection established.
+2025-07-15 03:26:05.751 [info] [127.0.0.1][47bc0e1f][ExtensionHostConnection] <1257> Launched Extension Host Process.
+2025-07-15 03:26:14.482 [info] [127.0.0.1][2e633ff1][ManagementConnection] New connection established.
+2025-07-15 03:26:14.606 [info] [127.0.0.1][3c6c9bf1][ExtensionHostConnection] New connection established.
+2025-07-15 03:26:14.614 [info] [127.0.0.1][3c6c9bf1][ExtensionHostConnection] <1800> Launched Extension Host Process.
+2025-07-15 03:26:16.921 [info] [127.0.0.1][a13ecd6b][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-07-15 03:26:16.931 [warning] RequestStore#acceptReply was called without receiving a matching request 49
+2025-07-15 03:26:16.932 [warning] RequestStore#acceptReply was called without receiving a matching request 50
+2025-07-15 03:26:16.936 [warning] RequestStore#acceptReply was called without receiving a matching request 51
+2025-07-15 03:26:16.936 [warning] RequestStore#acceptReply was called without receiving a matching request 52
+2025-07-15 03:26:16.936 [warning] RequestStore#acceptReply was called without receiving a matching request 53
+2025-07-15 03:26:16.936 [warning] RequestStore#acceptReply was called without receiving a matching request 54
+2025-07-15 03:26:16.936 [warning] RequestStore#acceptReply was called without receiving a matching request 55
+2025-07-15 03:26:16.936 [warning] RequestStore#acceptReply was called without receiving a matching request 56
+2025-07-15 03:26:16.936 [warning] RequestStore#acceptReply was called without receiving a matching request 57
+2025-07-15 03:26:16.936 [warning] RequestStore#acceptReply was called without receiving a matching request 58
+2025-07-15 03:26:16.937 [warning] RequestStore#acceptReply was called without receiving a matching request 59
+2025-07-15 03:26:16.937 [warning] RequestStore#acceptReply was called without receiving a matching request 60
+2025-07-15 03:26:24.458 [info] [127.0.0.1][47bc0e1f][ExtensionHostConnection] <1257> Extension Host Process exited with code: 0, signal: null.
+2025-07-15 03:26:40.448 [error] [File Watcher] Unexpected error: inotify_add_watch on '/home/villevillegas2/.cache/cloud-code/CLOUDCODE_BINARY_FROM_ZIP_LOCK' failed: No such file or directory (EUNKNOWN) (path: /home/villevillegas2)
+2025-07-15 03:26:40.449 [error] [File Watcher (universal)] inotify_add_watch on '/home/villevillegas2/.cache/cloud-code/CLOUDCODE_BINARY_FROM_ZIP_LOCK' failed: No such file or directory

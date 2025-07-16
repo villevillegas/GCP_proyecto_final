@@ -1,0 +1,39 @@
+2025-07-16 04:24:05.255 [info] [main] Log level: Info
+2025-07-16 04:24:05.255 [info] [main] Validating found git in: "git"
+2025-07-16 04:24:05.255 [info] [main] Using git "2.43.0" from "git"
+2025-07-16 04:24:05.255 [info] [Model][doInitialScan] Initial repository scan started
+2025-07-16 04:24:05.255 [info] > git rev-parse --show-toplevel [5318ms]
+2025-07-16 04:24:05.255 [info] > git rev-parse --git-dir --git-common-dir [229ms]
+2025-07-16 04:24:05.255 [info] [Model][openRepository] Opened repository: /home/villevillegas2
+2025-07-16 04:24:05.255 [info] > git rev-parse --show-toplevel [21ms]
+2025-07-16 04:24:05.255 [info] > git config --get commit.template [28ms]
+2025-07-16 04:24:05.271 [info] [Git][getRemotes] No remotes found in the git config file
+2025-07-16 04:24:05.290 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [20ms]
+2025-07-16 04:24:05.290 [warning] [Git][getBranch] No such branch: main
+2025-07-16 04:24:05.316 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-07-16 04:24:05.347 [info] > git rev-parse --show-toplevel [10ms]
+2025-07-16 04:24:05.373 [info] > git rev-parse --show-toplevel [5ms]
+2025-07-16 04:24:05.397 [info] > git rev-parse --show-toplevel [4ms]
+2025-07-16 04:24:05.414 [info] > git rev-parse --show-toplevel [3ms]
+2025-07-16 04:24:05.435 [info] > git rev-parse --show-toplevel [11ms]
+2025-07-16 04:24:05.453 [info] > git rev-parse --show-toplevel [6ms]
+2025-07-16 04:24:05.469 [info] > git rev-parse --show-toplevel [3ms]
+2025-07-16 04:24:05.485 [info] > git rev-parse --show-toplevel [1ms]
+2025-07-16 04:24:05.499 [info] > git rev-parse --show-toplevel [4ms]
+2025-07-16 04:24:05.513 [info] > git rev-parse --show-toplevel [3ms]
+2025-07-16 04:24:05.514 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-07-16 04:24:08.235 [info] > git status -z -uall [2936ms] (cancelled)
+2025-07-16 04:24:08.235 [info] > git check-ignore -v -z --stdin [2478ms]
+2025-07-16 04:24:08.237 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2084ms]
+2025-07-16 04:24:08.237 [warning] [Git][getBranch] No such branch: main
+2025-07-16 04:24:08.237 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for main: Error: No such branch: main.
+2025-07-16 04:24:08.268 [info] > git config --get commit.template [49ms]
+2025-07-16 04:24:08.280 [info] [Git][getRemotes] No remotes found in the git config file
+2025-07-16 04:24:08.282 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-07-16 04:24:08.282 [warning] [Git][getBranch] No such branch: main
+2025-07-16 04:24:08.314 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-07-16 04:24:09.562 [info] > git status -z -uall [1268ms] (cancelled)
+2025-07-16 04:24:11.713 [info] > git show --textconv :proyecto_final/topic_subscriber/index.js [61ms]
+2025-07-16 04:24:11.727 [info] > git ls-files --stage -- proyecto_final/topic_subscriber/index.js [64ms]
+2025-07-16 04:24:11.749 [info] > git cat-file -s c147c165489accf2c5b98589c4f4d0f0716c6923 [8ms]
+2025-07-16 04:34:08.473 [info] > git check-ignore -v -z --stdin [10ms]

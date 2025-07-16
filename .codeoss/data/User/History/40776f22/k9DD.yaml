@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: service-ventas
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: service-ventas
+  template:
+    metadata:
+      labels:
+        app: service-ventas
+    spec:
+      containers:
+      - name: service-ventas
+        image: us-central1-docker.pkg.dev/psyched-option-462823-k6/laboratorio-gcp-repo/service-ventas:v1
+        ports:
+        - containerPort: 3000
+

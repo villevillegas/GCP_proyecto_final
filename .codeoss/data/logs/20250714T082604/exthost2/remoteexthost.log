@@ -1,0 +1,27 @@
+2025-07-14 08:29:57.915 [info] Extension host with pid 1827 started
+2025-07-14 08:29:57.935 [info] Lock '/home/villevillegas2/.codeoss/data/User/workspaceStorage/-1b275788/vscode.lock': Lock acquired.
+2025-07-14 08:29:58.026 [info] ExtensionService#_doActivateExtension google.geminicodeassist, startup: false, activationEvent: 'onView:cloudcode.gemini.chatView'
+2025-07-14 08:29:58.028 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-07-14 08:29:58.028 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-14 08:29:58.034 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-14 08:29:58.035 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-14 08:29:59.653 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-07-14 08:29:59.843 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-07-14 08:29:59.844 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-14 08:29:59.942 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onCommand:cloudshell.isAuthorized'
+2025-07-14 08:30:00.093 [info] Eager extensions activated
+2025-07-14 08:30:00.093 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2025-07-14 08:30:00.094 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-14 08:30:00.095 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-07-14 08:30:00.374 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2025-07-14 08:34:55.137 [error] Error: Failed to execute git
+    at t.Git._exec (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:164815)
+    at t.Git.exec (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:163934)
+    at z.exec (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:169608)
+    at z.getRemotesGit (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:192449)
+    at z.getRemotes (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:192181)
+    at async Promise.all (index 1)
+    at O._updateModelState (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:302282)
+    at O.updateModelState (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:302107)
+    at O.run (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:301315)
+    at O.status (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:281584)

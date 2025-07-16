@@ -1,0 +1,18 @@
+{
+  "name": "web-recharge-app-service",
+  "version": "1.0.0",
+  "description": "service that get message from the fronted and send it to the pubsub topic",
+  "license": "ISC",
+  "author": "sergio villegas",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@google-cloud/pubsub": "^5.1.0",
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0"
+  }
+}
